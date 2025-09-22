@@ -1,12 +1,17 @@
 <html>
 <head>
-    <title>Boxfuse Sample App: success!</title>
+    <title>Deployment of War file: success!</title>
 </head>
 <body style="text-align: center">
 <h1>Congratulations!</h1>
-<img src="boxfuse.png">
 
-<h2> Divya Prasnna Abhi AWS DevOps Classes  </h2>
+<!-- Jenkins Pipeline Image -->
+<img src="https://miro.medium.com/1*7jkR__KMT6dOaSjpy-A5zA.png" alt="Jenkins Pipeline" style="width:500px; margin:10px;">
+
+<!-- Tomcat Image -->
+<img src="https://cdn.shortpixel.ai/spai/q_lossy+ret_img+to_auto/linuxiac.com/wp-content/uploads/2021/07/apache-with-tomcat.png" alt="Tomcat Server" style="width:500px; margin:10px;">
+
+<h2>Rajini AWS DevOps Classes</h2>
 
 <p>This Instance is running on <strong><%= System.getenv("BOXFUSE_PLATFORM_NAME") %>
 </strong> and has the id <strong><%= System.getenv("BOXFUSE_INSTANCE_ID") %>
@@ -30,7 +35,7 @@
     <strong>boxfuse ps</strong>
 </p>
 
-<P style="margin-bottom: 20px;">
+<p style="margin-bottom: 20px;">
     List all Bootable Apps:<br/>
     <strong>boxfuse ls</strong>
 </p>

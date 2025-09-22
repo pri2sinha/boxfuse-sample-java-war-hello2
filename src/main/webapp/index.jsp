@@ -12,6 +12,6 @@
 <!-- Tomcat Image -->
 <img src="https://cdn.shortpixel.ai/spai/q_lossy+ret_img+to_auto/linuxiac.com/wp-content/uploads/2021/07/apache-with-tomcat.png" alt="Tomcat Server" style="width:500px; margin:10px;">
 
-<h2>Deployment of war in Tomcat done successfully</h2>
+<h2>Deployment of .war(artifact) in Tomcat done successfully</h2>
 </body>
 </html>

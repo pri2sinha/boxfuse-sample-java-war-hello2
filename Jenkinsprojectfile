@@ -41,7 +41,7 @@ pipeline {
                 deployToTomcat('13.233.237.178', 'tomcat', 'tomcat', 'http://13.233.237.178:8080/manager/text', '/Sample-app.v1', 'QA')
             }
         }
-        stage("Deploy to Prod") {
+        stage("Deploy to UAT") {
             when {
                 expression { params.BRANCH_NAME == 'master' }
             }
